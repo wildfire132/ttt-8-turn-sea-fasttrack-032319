@@ -8,7 +8,7 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "It's your move! Choose a position 1-9."
 
-move = gets.strip.to_i
+user_input = gets.strip.to_i
 
 display_board(board)
 
