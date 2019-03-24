@@ -23,7 +23,7 @@ def valid_move?
 end
 
 def position_taken?(array)
-  if !board[input_to_index] == " "
+  !board[input_to_index] == " "
 end
 
 def valid_turn
