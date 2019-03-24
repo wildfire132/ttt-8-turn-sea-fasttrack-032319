@@ -19,7 +19,7 @@ def valid_move?(board,input_to_index)
 end
 
 def position_taken?(board, input_to_index)
-  !board[input_to_index] == " "
+  board[input_to_index] == " "
 end
 
 def play_game
