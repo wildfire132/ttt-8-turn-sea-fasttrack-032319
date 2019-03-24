@@ -31,6 +31,7 @@ def valid_turn
     puts "X"
   else 
     puts "Invalid move, input another number."
+  end
 end
 
 def play_game
