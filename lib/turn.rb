@@ -1,5 +1,4 @@
-puts "Welome to Tic Tac Toe!"
-puts "It's your move! Choose a position 1-9."
+
 
 move = gets.strip.to_i
 
