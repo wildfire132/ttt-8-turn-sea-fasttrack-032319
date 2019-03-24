@@ -13,11 +13,7 @@ def input_to_index(move)
 end
 
 def valid_move?(board,input_to_index)
-  input_to_index.between?(0,8)  && position_taken?
-    puts "X"
-  else 
-    puts "Invalid move, input another number."
-  end
+  input_to_index.between?(0,8) && position_taken?
 end
 
 def position_taken?(array)
@@ -29,3 +25,8 @@ def play_game
   input_to_index
   valid_turn
 end
+
+# puts "X"
+#   else 
+#     puts "Invalid move, input another number."
+#   end
