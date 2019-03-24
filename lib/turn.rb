@@ -1,6 +1,6 @@
 
 
-move = gets.strip.to_i
+
 
 array_board = [" "," "," "," "," "," "," "," "," "]
 
