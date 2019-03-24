@@ -1,9 +1,3 @@
-
-
-
-
-array_board = [" "," "," "," "," "," "," "," "," "]
-
 def display_board(board)
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   11.times{print("-")}
@@ -15,7 +9,7 @@ def display_board(board)
 end 
 
 def input_to_index(move)
-  position = move - 1
+  position = user_input.to_i - 1
 end
 
 def valid_move?
