@@ -16,7 +16,7 @@ def valid_move?(board,input_to_index)
   input_to_index.between?(0,8) && position_taken?
 end
 
-def position_taken?(array)
+def position_taken?(board, input_to_index)
   !board[input_to_index] == " "
 end
 
