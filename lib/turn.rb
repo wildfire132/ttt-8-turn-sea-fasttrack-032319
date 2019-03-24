@@ -23,7 +23,7 @@ end
 def play_game
   display_board(board)
   input_to_index
-  valid_turn
+  valid_move?
 end
 
 # puts "X"
